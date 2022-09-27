@@ -1,35 +1,50 @@
 # A markdown cheat sheet
 
+Create headers:
+
 # Header 1
 ## Header 2
 ### Header 3
 
+Add bold text:
+
 **bold text**
+
+Add italics:
 
 *italicized text*
 
-> blockquote
+Add a blockquote:
 
-Ordered List:
+> "Programming isn't about what you know; it's about what you can figure out."
+
+Create an ordered List:
 1. First item
 2. Second item
 3. Third item
 
-Unordered List	
+And an unordered List:	
 - First item
 - Second item
 - Third item
 
-Code	`some code`
+Format some code:
 
-Horizontal Rule:	---
+`some code`
 
-Insert a link: `
+Ad a horizontal Rule:	
 
-[title](https://www.markdownguide.org/cheat-sheet/)
+---
 
-Image	![alternative text](https://res.cloudinary.com/practicaldev/image/fetch/s--2rTn_7XO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/5zhubbpov3m3ly9a1t9c.png)
+Insert a link:
 
+A markdown [guide](https://www.markdownguide.org/cheat-sheet/)
+
+Insert an image:
+
+![alternative text](https://api.time.com/wp-content/uploads/2014/08/xkcd-randll-munroe.jpg?quality=85&w=1600)
+
+Format a table:
 
 Table	| Syntax | Description |
 | ----------- | ----------- |
@@ -37,7 +52,9 @@ Table	| Syntax | Description |
 | Paragraph | Text |
 
 
-Fenced Code Block	```
+Format a Fenced Code Block	
+
+```
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -46,27 +63,43 @@ Fenced Code Block	```
 ```
 
 
-Footnote	Here's a sentence with a footnote. [^1]
+Add a footnote	
+
+Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
 Heading ID	### My Great Heading {#custom-id}
 
-Definition List	term
-: definition
+Create a definition list
 
-Strikethrough	~~The world is flat.~~
+term: definition
 
-Task List	
+Strikethrough text:
+
+~~The world is flat.~~
+
+Create a task List	
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
-Emoji
-(see also Copying and Pasting Emoji)	That is so funny! :joy:
+Insert emojis:	
 
-Highlight	I need to highlight these ==very important words==.
+That is so funny! :joy:
 
-Subscript	H~2~O
+Highlight some text:
 
-Superscript	X^2^
+I need to highlight these ==very important words==.
+
+Subscript:
+
+H~2~O
+
+Superscript:
+
+X^2^
+
+Resources:
+
+- https://res.cloudinary.com/practicaldev/image/fetch/s--2rTn_7XO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/5zhubbpov3m3ly9a1t9c.png
