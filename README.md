@@ -38,11 +38,13 @@ Ad a horizontal Rule:
 
 Insert a link:
 
-A markdown [guide](https://www.markdownguide.org/cheat-sheet/)
+For example, here's a markdown [guide](https://www.markdownguide.org/cheat-sheet/).
 
-Insert an image:
+Insert images using their URL:
 
-![alternative text](https://api.time.com/wp-content/uploads/2014/08/xkcd-randll-munroe.jpg?quality=85&w=1600)
+![The flowers of the chocolate tree](https://images.squarespace-cdn.com/content/v1/56d7d7b09f7266eea25232cb/1541984581879-QBSWAQ1930QYNCR5KEFE/flowers.jpg?format=750w)
+
+<img src="https://api.time.com/wp-content/uploads/2014/08/xkcd-randll-munroe.jpg?quality=85&w=1600" width="500">
 
 Format a table:
 
@@ -52,7 +54,7 @@ Table	| Syntax | Description |
 | Paragraph | Text |
 
 
-Format a Fenced Code Block	
+Format a Fenced Code Block:
 
 ```
 {
@@ -63,15 +65,17 @@ Format a Fenced Code Block
 ```
 
 
-Add a footnote	
+Add a footnote:
 
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-Heading ID	### My Great Heading {#custom-id}
+Add a heading ID for linking:
 
-Create a definition list
+### My Great Heading {#custom-id}
+
+Create a definition list:
 
 term: definition
 
@@ -79,7 +83,8 @@ Strikethrough text:
 
 ~~The world is flat.~~
 
-Create a task List	
+Create a task List:
+
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
