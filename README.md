@@ -42,7 +42,7 @@ For example, here's a markdown [guide](https://www.markdownguide.org/cheat-sheet
 
 Or a link to sections within a document:
 
-For example, jump to [header 2)(#header 2).
+For example, jump to [header 2](#header-2).
 
 Insert images using their URL:
 
@@ -81,9 +81,15 @@ Here's a sentence with a footnote. [^1]
 
 
 
-Create a definition list:
+Create a definition list or nested lists:
 
-term: definition
+
+**term 1**
+  - definition
+
+**term 2**
+  - another definition
+
 
 Strikethrough text:
 
