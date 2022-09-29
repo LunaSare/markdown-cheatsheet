@@ -2,7 +2,10 @@
 title: "Marcos-Rmarkdown-tutorial"
 author: "Marcos Padilla-Ruiz"
 date: "2022-09-29"
-output: pdf_document
+output:
+  pdf_document:
+    keep_tex: TRUE 
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -15,23 +18,18 @@ to use r markdown we first need to install it
 install.packages("rmarkdown")
 tinytex::install_tinytex()
 ```
+---
 
-## R Markdown
+## best practices for computing summary
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+**a code chunk**: is a source of code 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+---
+*things that i love*:
+- boxing, below is an image of one of my favorite boxers
+![canelo]("/Users/marcos/Downloads/canelo.jpeg")
 
-```{r cars}
-summary(cars)
+```{r results = 'asis', out.width="40px"}
+knitr::include_graphics(path = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.asmedia.epimg.net%2Fresizer%2Ft3JXQ97ig-1DOU5ZFYqQjPRbJvw%3D%2F1952x1098%2Ffilters%3Afocal(2197x714%3A2207x724)%2Fcloudfront-eu-central-1.images.arcpublishing.com%2Fdiarioas%2FHGHELA2HT5APNGLJ7L5AM3SG6U.jpg&imgrefurl=https%3A%2F%2Fen.as.com%2Fother_sports%2Fsaul-canelo-alvarez-is-undefeated-against-russian-boxers-n%2F&tbnid=e7-XdPD6jD6RDM&vet=12ahUKEwjXw-__irv6AhX2omoFHYUeAQwQMygIegUIARDvAQ..i&docid=Kzioej1DAqK9oM&w=1952&h=1098&q=canelo&ved=2ahUKEwjXw-__irv6AhX2omoFHYUeAQwQMygIegUIARDvAQ")
+#?knitr::include_graphics
 ```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
