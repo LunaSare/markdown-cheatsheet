@@ -1,0 +1,4 @@
+A markdown cheatsheet file:
+
+To create headers you use a hashtag symbol (#) at the beginning of  a 
+line.
