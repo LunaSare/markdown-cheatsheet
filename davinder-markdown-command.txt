@@ -1,0 +1,2 @@
+To create headers you use a hashtag(#) at the beginning of the line 
+readme files has organized structure header 3 bold text, italics
