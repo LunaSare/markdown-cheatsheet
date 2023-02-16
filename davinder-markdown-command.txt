@@ -1,2 +1,4 @@
-To create headers you use a hashtag(#) at the beginning of the line 
-readme files has organized structure header 3 bold text, italics
+To create headers you use a hashtag(#) at the beginning of the lines
+The astracts around the bold text
+The images on R show as links while on the file they show as images
+subscripts on R show as <sub> while on the file there are subscripts
