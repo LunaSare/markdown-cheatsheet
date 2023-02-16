@@ -1,0 +1,2 @@
++The Difference between the file that you see on terminal to GitHub
+-The difference I see between my local respository to the GitHub respository is GitHub displays only what has been pushed to the respository. 
