@@ -1,0 +1,24 @@
+---
+title: "Summary-README"
+output: pdf_document
+date: "2023-02-16"
+---
+#Summary
+I have learned a lot from the markdown cheatsheet these are some of the commands I believe that I will be using most often. Overall in this class I have learned alot for example I have learned how to utilize bash, R studio, and github.
+##Bash
+1.I have learned how to switch between directories.
+2. Make new directories.
+3. Create text files.
+
+##**R studio**
+1. Learned some new code
+2. Learned how to make vectors. 
+3. Utilized github within R studio
+
+## GitHub
+1. I have learned how to make a remote repository.
+2. I have learned how to commit changes in a file.
+3. I have staged and commited files as well.
+
+*Overall I have learned a lot within this course about coding and I am excited to learn more*
+
