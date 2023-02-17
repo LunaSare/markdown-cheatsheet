@@ -2,7 +2,9 @@
 title: "Charles rmarkdown tutorial"
 author: "Charles"
 date: "2023-02-16"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +30,26 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+##1: bash
+---
+```{code}
+#we learned basic file manipulation/navigation in bash
+```
+
+##2: rstudio
+---
+```{code}
+#we learned the basic suite of math tools in r
+matrixvar <- [1, 2, 3]
+```
+
+#FORMAT
+##FORMAT
+###FORMAT
+- we
+* are
+- good
+* at
+- listing
+* things
