@@ -20,4 +20,4 @@ I have learned a lot from the markdown cheatsheet these are some of the commands
 2. I have learned how to commit changes in a file.
 3. I have staged and commited files as well.
 
-*Overall I have learned a lot within this course about coding and I am excited to learn more!!*
+*Overall I have learned a lot within this course about coding and I am excited to learn more!!!*
