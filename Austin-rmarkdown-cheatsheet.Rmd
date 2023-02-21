@@ -1,0 +1,13 @@
+---
+title: "Austin-rmarkdown-cheatsheet"
+author: "Austin Mercado"
+date: "2023-02-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# The Difference between the file that you see on terminal to GitHub
+*The difference I see between my local respository to the GitHub respository is GitHub displays only what has been pushed to its respository. 
