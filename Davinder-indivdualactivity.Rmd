@@ -1,0 +1,14 @@
+---
+title: "Davinder-indivdual activity"
+output: html_document
+date: "2023-02-17"
+---
+# Summary of class --------------------------------------------------------
+
+**how to format r studio using headers and bolding text**
+*how to use git in r studio such as git pull and push*
+command lines:
+  -mean()
+  - median()
+  - summary()
+** how to use rmarkdown and convert file from rmd to pdf
