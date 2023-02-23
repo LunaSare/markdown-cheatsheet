@@ -1,6 +1,8 @@
 ---
 title: "Avi-rmarkdown-cheatsheet"
-output: word_document
+output:
+  pdf_document: default
+  word_document: default
 date: "2023-02-21"
 ---
 
@@ -15,6 +17,6 @@ To create headers you use a hashtag symbol (#) at the beginning of a line, for e
 
 # Level 1
 ## Level 2
-### Level 3
+### Level 3!
 
 tinytex::install_tinytex()
